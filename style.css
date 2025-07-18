@@ -43,11 +43,10 @@ h3{
 }
 
 .programcondition{
-  margin-top: 75px;
-	font-family: sans-serif;
-  padding: 20px;
-	font-size: 20px;
-	font-weight: bold;
+margin-top: 4px
+font-family: sans-serif;
+font-size: 20px;
+font-weight: bold;
 }
 
 
@@ -122,6 +121,7 @@ h3{
 a{ text-decoration: none; }
 
 #condition-head{
+ position :fixed
   padding: 3px;
   text-align: center;
   font-size: 25px;
