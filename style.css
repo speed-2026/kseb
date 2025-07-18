@@ -37,6 +37,7 @@ h3{
   border-radius: 25px;
   font-size: 18px;
   font-weight: bold;
+	 width: 99%;
  
 
 }
@@ -75,6 +76,7 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+      min-height: 100vh;
       flex-wrap: wrap;
     }
 
@@ -111,6 +113,7 @@ body {
   border-radius: 20px;
   font-size: 16px;
   font-weight: bold;
+  width: 99%;
   cursor: pointer;
   transition: background-color 0.3s ease;
   display: block; margin:1px auto;
