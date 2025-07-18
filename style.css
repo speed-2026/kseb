@@ -79,7 +79,7 @@ font-weight: bold;
     .image-container {
       position: relative;
       width: 270px;
-      height: 200px;
+      height: 230px;
       margin: 10px;
       opacity: 0;
       transform: translateY(50px) scale(0.8);
