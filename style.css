@@ -5,10 +5,10 @@ h2{
   top: 0;
   width: 99%;
   background-color: lightgray;
-	color: blue;
-	font-family:sans-serif;
-	text-align: center;
-	padding: 3px;
+  color: blue;
+  font-family:sans-serif;
+  text-align: center;
+  padding: 0px;
   font-size: 25px;
   font-weight: 900;
   border-radius: 25px;
@@ -121,10 +121,6 @@ font-weight: bold;
 a{ text-decoration: none; }
 
 #condition-head{
- position: fixed;
-  top: 0;
-  left: 0;
- top: 0;
  padding: 3px;
   text-align: center;
   font-size: 25px;
