@@ -68,7 +68,7 @@ font-weight: bold;
 .FirstPagebody {
       margin: 0;
       padding: 0;
-      background: gray;
+      background: white;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -128,7 +128,7 @@ a{ text-decoration: none; }
 
 .scroll{ 
   background-color: white;
-  color: darkred;
+  color: red;
   overflow: hidden;
   border: 5px;
   font-family:sans-serif;
