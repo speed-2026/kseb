@@ -121,7 +121,10 @@ font-weight: bold;
 a{ text-decoration: none; }
 
 #condition-head{
- position: fixed
+ position: fixed;
+  top: 0;
+  left: 0;
+ top: 0;
  padding: 3px;
   text-align: center;
   font-size: 25px;
