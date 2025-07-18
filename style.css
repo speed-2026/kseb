@@ -63,6 +63,7 @@ footer{
 
 
 .registernow{
+position: fixed;	
  background-color: #7c3aed;     /* Purple color */
   color: white;
   padding: 5px 12px;
