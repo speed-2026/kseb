@@ -30,13 +30,10 @@ h3{
 }
 
 .Clecl-to-register{
-  background-color: darkgray;
-  color: blue;
+  background-color: white;
+  border-radius: 25px;
   font-family:sans-serif;
-  padding: 5px;
   text-align: center;
-  font-size: 25px;
-  font-weight: bold;
   width: 99%;
  
 
@@ -127,4 +124,17 @@ a{ text-decoration: none; }
   background-color: darkgray;
   border-radius: 25px;
   color: darkgreen;
+}
+
+.scroll{ 
+  background-color: white;
+  color: darkred;
+  overflow: hidden;
+  border: 5px;
+  font-family:sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  width: 70%;
+
 }
