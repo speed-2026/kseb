@@ -148,9 +148,8 @@ a{ text-decoration: none; }
   z-index: 999;
   /* for alin center */
   display: block; margin:1px auto;
+}
 
-}
-}
 #dm{
 bottom: 50px;
 }
