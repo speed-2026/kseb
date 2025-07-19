@@ -3,7 +3,7 @@ h1{
   top: 0;
   left: 0;
   top: 0;
-  width: 99.8%;
+  width: 100%;
   background-color: lightgray;
   color: green;
   font-family:sans-serif;
@@ -11,8 +11,10 @@ h1{
   padding: 0px;
   font-size: 30px;
   font-weight: 900;
-  border-radius: 10px;
-  z-index: 1000;
+  border-radius: 25px;
+  z-index: 999;
+  display: block; margin:1px auto;
+
  }
 
 h3{
@@ -23,20 +25,15 @@ h3{
   margin-top: 75px;
   text-align: center;
   font-size: 25px;
-  background-color: white;
-  border-radius: 10px;
-  color: darkred;
-   width: 99%;
-}
-
-.Clecl-to-register{
-  background-color: white;
+  background-color: darkgray;
   border-radius: 25px;
-  font-family:sans-serif;
-  text-align: center;
-  width: 99%;
- 
-
+  color: brown;
+   width: 100%;
+   position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 999;
+   display: block; margin:45px auto;
 }
 
 .programcondition{
@@ -66,7 +63,8 @@ font-weight: bold;
 	
 
 .FirstPagebody {
-      margin: 0;
+    margin-top: 100px;
+      /*margin: 0;*/
       padding: 0;
       background: white;
       display: flex;
@@ -75,6 +73,7 @@ font-weight: bold;
       min-height: 100vh;
       flex-wrap: wrap;
     }
+
 
     .image-container {
       position: relative;
@@ -102,7 +101,7 @@ font-weight: bold;
 
 
 
- .old-celebration{ 
+ .old-celebration{
   background-color: #7c3aed;     /* Purple color */
   color: white;
   border: none;
@@ -113,6 +112,12 @@ font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
   display: block; margin:1px auto;
+  box-shadow: 0 5px 30px rgba(0,0,0,0.5);
+  /* for fixing */
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
 a{ text-decoration: none; }
@@ -128,13 +133,27 @@ a{ text-decoration: none; }
 
 .scroll{ 
   background-color: white;
-  color: red;
-  overflow: hidden;
+  color: blue;
   border: 5px;
   font-family:sans-serif;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 900;
-  width: 50%;
+  width: 100%;
+  border-radius: 25px;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  /* for alin center */
+  display: block; margin:1px auto;
 
+}
+}
+#dm{
+bottom: 50px;
+}
+#dmm{
+bottom: 10px;
 }
