@@ -13,7 +13,7 @@ h1{
   font-weight: 900;
   border-radius: 25px;
   z-index: 999;
-  display: block; margin:1px auto;
+  display: block; margin:10px auto;
 
  }
 
@@ -33,7 +33,7 @@ h3{
   left: 0;
   right: 0;
   z-index: 999;
-   display: block; margin:45px auto;
+   display: block; margin:55px auto;
 }
 
 .programcondition{
@@ -63,7 +63,7 @@ font-weight: bold;
 	
 
 .FirstPagebody {
-    margin-top: 100px;
+    margin-top: 120px;
       /*margin: 0;*/
       padding: 0;
       background: white;
@@ -147,7 +147,7 @@ a{ text-decoration: none; }
   right: 0;
   z-index: 999;
   /* for alin center */
-  display: block; margin:1px auto;
+  display: block; margin:95px auto;
 }
 
 #dm{
