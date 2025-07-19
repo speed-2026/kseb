@@ -64,7 +64,7 @@ font-weight: bold;
 	
 
 .FirstPagebody {
-    margin-top: 150px;
+    margin-top: 160px;
       /*margin: 0;*/
       padding: 0;
       background: white;
@@ -148,7 +148,7 @@ a{ text-decoration: none; }
   right: 0;
   z-index: 999;
   /* for alin center */
-  display: block; margin: 100px auto;
+  display: block; margin: 110px auto;
 }
 
 #dm{
