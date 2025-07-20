@@ -192,6 +192,9 @@ bottom: 10px;
     }
 }
 .aboutpage{
-  position: center;
+      width: 270px;
+      height: 230px;
+      margin: 10px;
+      opacity: 0;
 }
 
