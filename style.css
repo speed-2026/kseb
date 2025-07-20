@@ -137,10 +137,10 @@ a{ text-decoration: none; }
   text-align: center;
   font-size: 35px;
   font-weight: 900;
-  width: 90%;
+  width: 80%;
   position: fixed;
   top: 0;
-  left: 5%;
+  left: 10%;
   right: 0;
   z-index: 999;
   /* for alin center */
