@@ -191,7 +191,10 @@ bottom: 10px;
       background-color: #ddd;
     }
 }
-.aboutpage{position: auto;
+.aboutpage{
+  top: 5px;
+  left: 5px;
+  right: 5px;
   }
       
 
