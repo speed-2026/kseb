@@ -191,10 +191,6 @@ bottom: 10px;
       background-color: #ddd;
     }
 }
-.aboutpage{
-      width: 270px;
-      height: 230px;
-      margin: 10px;
-      opacity: 0;
-}
+.aboutpage{width: 100%;}
+      
 
