@@ -194,6 +194,7 @@ bottom: 10px;
 .aboutpage{
 max-width: 100%;
 height: auto;
-  }
+overflow: hidden;
+}
       
 
