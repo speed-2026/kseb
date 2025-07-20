@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="ml">
-<head>
+  
+  <head>
   <meta charset="UTF-8">
   <title>SPEED GROUP</title>
-  <h1>WELCOME TO SPEED GROUP</h1>
+  <h1>WELCOME TO SPEED GROUP </h1>
 </head>
-<h3>A positive Community with KSEB Employees</h3>
+
+
+<h3>
+  A POSITIVE COMMUNITY WITH KSEB EMPLOYEES
+  <div class="menu-icon" onclick="toggleMenu()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+<div id="dropdownMenu" class="dropdown">
+    <a href="#">HOME</a>
+    <a href="#">ABOUT US</a>
+    <a href="https://drive.google.com/drive/folders/16DVOE1LLTmCM8cwQ1Lf5eaye3GzrW6Wt?usp=drive_link" target="_blank">VIEW CELEBRATION<br>
+    2023</a>
+
+    <a href="https://drive.google.com/drive/folders/1v4Xv7_ud2PgQV7EiBxSez0cbEvh5h_42?usp=sharing" target="_blank">VIEW CELEBRATION<br>
+    2025</a>
+    <a href="#">MORE CELEBRATION<br>
+     2026</a>
+  </div>
+</h3>
+
 <body class="FirstPagebody">
 <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
   <!-- 20 images -->
   <div class="image-container"><img src="img4.jpg" alt="Image 4"></div>
   <div class="image-container"><img src="img5.jpg" alt="Image 5"></div>
@@ -20,6 +45,7 @@
   <div class="image-container"><img src="img13.jpg" alt="Image 13"></div>
   
   <marquee class="scroll"onclick="window.location.href='ConditionPage.html'">CLECK HERE REGISTER TO SPEED CELEBRATION 2026 </marquee> 
+
 
   
   
@@ -34,24 +60,6 @@
   <div class="image-container"><img src="img23.jpg" alt="Image 23"></div>
 
 
-  
-
-  <button id="dm" class="old-celebration">
-  <a href="https://drive.google.com/drive/folders/16DVOE1LLTmCM8cwQ1Lf5eaye3GzrW6Wt?usp=drive_link" target="_blank" class="registernow">
-  VIEW CELEBRATION 2023
-  </a>
-  </button>
-
-   <br>
-   <br>
-
-  <button id="dmm" class="old-celebration">
-  <a href="https://drive.google.com/drive/folders/1v4Xv7_ud2PgQV7EiBxSez0cbEvh5h_42?usp=sharing" target="_blank" class="registernow">
-  VIEW CELEBRATION 2025
-  </a>
-  </button>
-
-
   <script>
     const containers = document.querySelectorAll('.image-container');
     containers.forEach((container, index) => {
@@ -59,7 +67,12 @@
         container.classList.add('visible');
       }, index * 400); //
     });
-  </script>
+ 
+  function toggleMenu() {
+    const menu = document.getElementById("dropdownMenu");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+  }
+</script>
 
 </body>
 </html>
