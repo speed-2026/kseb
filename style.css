@@ -176,8 +176,8 @@ bottom: 10px;
 max-width: 100%;
 height: auto;
 font-size: 1.5rem;
+text-align: justify;
 }
 
-@media (max-width: 768px)
       
 
