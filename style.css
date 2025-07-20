@@ -190,4 +190,8 @@ bottom: 10px;
     .dropdown a:hover {
       background-color: #ddd;
     }
+}
+.aboutpage{
+  position: center;
+}
 
